@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: YclbaD3skJo+asvALNWTsPxadycoyqp+CjMjrMXQLBF/hJ7MrSQpvxYgRJdIA8STqtV77LQ19BAUNr6O3b2Sff+S0rpLAi0iW6G9ZWbaqdSXoTlx9uIjnSbaOhzPeJBGxzQwtoqpHf1wu1dAJTmCZaZp2eoya8eYqpTky+gBF5DJ3466tBw//2uL4/WF1k25tXvEb783v7RAe/6PN+Q5bUnBbKRZasDfedWMSSLUIj6DnXadkFV/Nmq18rlMcyyTdT55rf14HUS3xJng9ZC32D7gtz7VQafcu7JzQ7wUiEAqlCbF99wi1e4o+nmrdB/y77bo7QzdtI8yzgtUGSXdI/ApKeiIPO3NXmYj/kEumMoI8rEBWE3Hu0RVL2Em0/sEB2ueHCo+umJlN5JGQl9ewm1NWzaib2RuuTR8hcDJoXdrLegR1PRWvrLPj1xIXl9K2lc7PWw+qXhCW90qkt7pHCY+ekPE3UN+Ip+uapYXHD4M0egUXRpqNV5DL6pQ2KpiHmRmtgctYcvb9cWDrG2Z6u/sFl62nXAyU81w3YdOVGB++Xf1e0txMYpRsO/DZWCaY2KVmAG4svRateimU1ICWorz+x/pMobwvdFdozjjk2lb4cmwmSldDiCDWVSxzNiN79oIHXm9ujXi44yNwAP3+Ypgvz6qpNsTtBwFHTmhI8o=
+  app: chilling-moonlight-99437
+  on:
+    repo: DAWolff/blog-app-mongoose-challenge-solution
